@@ -1,0 +1,160 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-20T15:20:46.355Z",
+        "line": 11,
+        "name": "Verifying Registration scenario",
+        "description": "",
+        "id": "assignment1;verifying-registration-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Page for navigation is \"https://www.gillette.co.in/en-in\" for \"chrome\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "clicked on registration",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Enter the details for registration like \"manasa\" \"g\" \"manasagp@gmail.com\" \"Spark123\" \"Spark123\" \"10\" \"1997\" \"500010\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Testfeature"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T15:20:46.575Z",
+        "line": 22,
+        "name": "Verifying Login scenario",
+        "description": "",
+        "id": "assignment1;verifying-login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Page for navigation",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "clicked on login",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "Enter the details for login like  \"manasagp@gmail.com\" \"Spark123\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Testfeature"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T15:20:46.590Z",
+        "line": 33,
+        "name": "Verifying Forgot Password scenario and Password Reset",
+        "description": "",
+        "id": "assignment1;verifying-forgot-password-scenario-and-password-reset;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "Page for navigation",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "clicked on Forgot password",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "Enter the details for password reset like  \"manasagp@gmail.com\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "clicked on password reset",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Testfeature"
+          }
+        ]
+      }
+    ],
+    "name": "Assignment1",
+    "description": "",
+    "id": "assignment1",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/Assignment1.feature",
+    "tags": [
+      {
+        "name": "@Testfeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
